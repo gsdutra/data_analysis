@@ -36,7 +36,7 @@ In this case, as the issuing bank has declined the evidence sent, there are some
 - Regardless of the outcome of the situation, orientating the client to always gather proof of sales and shipment is very important to prevent incorrect chargebacks in the future. They may haven't gathered as much evidence as necessary throughout the process, which could have led to an unfortunate result.
 
 ## Analyzing transaction data
-Despite all analysis made in 'data_analysis', I've gathered the most interesting patters I've found here.
+Despite all analysis made in 'data-analysis', I've gathered the most interesting patters I've found here.
 
 The dataset has 3.199 transactions in total, where 391 of them have chargeback, which means that 12.22% of them are marked as fraud.
 All transactions have happened in 2019 in a 2 month period.
@@ -85,7 +85,7 @@ Again, these graphs alone could be misleading, so here's the graphs of ratios of
 
 After all data analysed, I came to the conclusion that the best way to create a simple fraud would be to create a neural network to analyze the most supicious patterns present on transaction amount, date of transaction and time of transaction and join it with a script to verify users, merchants, devices and card numbers with a high chargeback amount (>20%).
 
-The Scripts can be found inside the folder 'anti-fraud-mechanism' and can be tested using the function 'check_transaction'. 
+The Scripts can be found inside the folder 'anti-fraud-mechanism.ipynb' and can be tested using the function 'verifyPotentialFraudRisk'.
 
 ## Final considerations
 
