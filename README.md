@@ -9,13 +9,34 @@ By Gabriel Sprecher Dutra
 </p>
 
 ### The money flow
-In the payment industry, money flow involves the movement of funds from a payer to a payee. It typically starts with the payer initiating a transaction, which is processed by various intermediaries such as banks, card networks, and payment processors. These intermediaries facilitate the transfer of funds from the payer's account to the payee's account. Simultaneously, there's an information flow which includes data related to the transaction such as payment details, authorization codes, and transaction status. The main players in this ecosystem include issuers (banks or financial institutions issuing payment cards), acquirers (banks or financial institutions that process transactions on behalf of merchants), card networks (such as Visa, Mastercard, etc., which facilitate communication between issuers and acquirers), payment processors (entities that handle the technical aspects of transaction processing), and merchants (sellers of goods or services).
+In the payment industry, money flow involves the movement of funds from a payer to a payee.
+It typically starts with the payer initiating a transaction, which is processed by various intermediaries such as banks, card networks, and payment processors.
+They facilitate the transfer of funds from the payer's account to the payee's account.
+
+Simultaneously, there's an information flow which includes data related to the transaction such as payment details, authorization codes, and transaction status.
+In this ecosystem, the main players include:
+- Issuers (banks or financial institutions issuing payment cards);
+- Acquirers (banks or financial institutions that process transactions on behalf of merchants);
+- Card networks (such as Visa, Mastercard, etc., which facilitate communication between issuers and acquirers);
+- Payment processors (entities that handle the technical aspects of transaction processing);
+- Merchants (sellers of goods or services).
 
 ### Differences between acquirer, sub-acquirer and payment gateway
-Acquirers, sub-acquirers, and payment gateways play distinct roles in the payment processing ecosystem. An acquirer is typically a bank or financial institution that directly processes transactions for merchants. A sub-acquirer, on the other hand, is an intermediary that works with merchants on behalf of an acquirer. They often provide additional services such as risk management or specialized processing. A payment gateway is a technology platform that facilitates online transactions by securely transmitting payment data between merchants and acquirers. The flow changes for these players in terms of their specific responsibilities within the payment process. Acquirers directly handle transaction processing, while sub-acquirers act as intermediaries between merchants and acquirers, and payment gateways facilitate the exchange of payment information between merchants and acquirers.
+Acquirers, sub-acquirers, and payment gateways play distinct roles in the payment processing ecosystem. An acquirer is typically a bank or financial institution that directly processes transactions for merchants. A sub-acquirer, on the other hand, is an intermediary that works with merchants on behalf of an acquirer.
+
+They often provide additional services such as risk management or specialized processing.
+A payment gateway is a technology platform that facilitates online transactions by securely transmitting payment data between merchants and acquirers.
+
+The flow changes for these players in terms of their specific responsibilities within the payment process. Acquirers directly handle transaction processing, while sub-acquirers act as intermediaries between merchants and acquirers, and payment gateways facilitate the exchange of payment information between merchants and acquirers.
 
 ### Chargebacks and cancellations
-Chargebacks occur when a cardholder disputes a transaction with their issuing bank, requesting a refund. Chargebacks can result from various reasons such as unauthorized transactions, disputes over goods or services, or fraudulent activity. Unlike cancellations, which are initiated by either the merchant or the customer before the transaction is completed, chargebacks involve the intervention of the cardholder's bank after the transaction has already been processed. Chargebacks are closely connected with fraud in the acquiring world because they can be a result of fraudulent transactions, either initiated by malicious actors or due to identity theft. Merchants and acquirers often face financial losses and penalties associated with chargebacks, making fraud prevention and detection crucial aspects of their operations.
+Although those two terms seem similiar, there's a big difference between them.
+
+Chargebacks occur when a cardholder disputes a transaction with their issuing bank, requesting a refund. Chargebacks can result from various reasons such as unauthorized transactions, disputes over goods or services, or fraudulent activity.
+
+Unlike cancellations, which are initiated by either the merchant or the customer *before* the transaction is completed, chargebacks involve the intervention of the cardholder's bank *after* the transaction has already been processed.
+
+Chargebacks are closely connected with fraud in the acquiring world because they can be a result of fraudulent transactions, either initiated by malicious actors or due to identity theft. Merchants and acquirers often face financial losses and penalties associated with chargebacks, making fraud prevention and detection crucial aspects of their operations.
 
 ## Solving a chargeback dispute issue
 
